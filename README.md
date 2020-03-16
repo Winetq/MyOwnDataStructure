@@ -1,43 +1,42 @@
 # MyOwnDataStructure
 My first own data structure that can stores ile_liczb numbers with any number of digits, and is able to perform several operations!
 
-Write a program which stores N integers (N <= 100000) with any number of digits, and is able to perform the following operations: 1)i = j + k - save under the index i the result of the addition of the numbers stored under j and k indices (i, j, k are from range [0, N-1]);   2)i = j - k - save under the index i the result of the substraction of the numbers stored under j and k indices (i, j, k are from range [0, N-1]); 3)min - print the minimum of the stored numbers; 4)max - print the maximum of the stored numbers; 5)? - print all of the stored numbers
+Write a program which stores N integers (N <= 100000) with any number of digits, and is able to perform the following operations:
+1)i = j + k - save under the index i the result of the addition of the numbers stored under j and k indices (i, j, k are from range [0, N-1])
+2)i = j - k - save under the index i the result of the substraction of the numbers stored under j and k indices (i, j, k are from range [0, N-1])  
+3)min - print the minimum of the stored numbers
+4)max - print the maximum of the stored numbers
+5)? - print all of the stored numbers
 
 Input
-
-First line: N - the number of numbers to be stored, next N lines: numbers to be stored, with any number of digits (one number per line), next lines: one of the following commands: 1)i = j + k; 2)i = j - k; 3)min; 4)max; 5)?; 6)q (exit the program)
+First line: N - the number of numbers to be stored, next N lines: numbers to be stored, with any number of digits (one number per line), next lines: one of the following commands:
+1)i = j + k
+2)i = j - k
+3)min
+4)max
+5)?
+6)q (exit the program)
 
 Output
-
 For each 'min/max' command: one line with the number which is the minimum/maximum of the stored numbers.
 For each '?' command: N lines with all the stored numbers.
 
 Example
-
 Input
-
 5
-
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
 3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
 4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
 -555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
-
 max
-
 min
-
 4 = 0 + 3
-
 ?
-
 min
-
 q
 
 Output
-
 4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
 -555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
