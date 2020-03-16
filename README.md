@@ -9,6 +9,7 @@ Write a program which stores N integers (N <= 100000) with any number of digits,
 5)? - print all of the stored numbers
 
 Input
+
 First line: N - the number of numbers to be stored, next N lines: numbers to be stored, with any number of digits (one number per line), next lines: one of the following commands:
 1)i = j + k,
 2)i = j - k,
