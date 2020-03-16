@@ -11,14 +11,16 @@ Write a program which stores N integers (N <= 100000) with any number of digits,
 Input
 
 First line: N - the number of numbers to be stored, next N lines: numbers to be stored, with any number of digits (one number per line), next lines: one of the following commands:
-1)i = j + k,
-2)i = j - k,
+
+1)i = j + k
+2)i = j - k
 3)min
 4)max
 5)?
 6)q (exit the program)
 
 Output
+
 For each 'min/max' command: one line with the number which is the minimum/maximum of the stored numbers.
 For each '?' command: N lines with all the stored numbers.
 
